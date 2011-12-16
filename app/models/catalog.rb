@@ -1,10 +1,10 @@
-class User
+class Catalog
   include Mongoid::Document
   include Mongoid::Timestamps
   
-  field :username
-  field :password
-  field :email
+  field :name
 
   auto_increment :id
+
+  has_many :articles
 end
