@@ -1,4 +1,6 @@
 RockBlog::Application.routes.draw do
+  resources :catalogs
+
   resources :users
 
   # The priority is based upon order of creation:

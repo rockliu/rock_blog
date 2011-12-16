@@ -5,4 +5,5 @@
   destroy: "删除"
   msg_confirm: "确定吗？"
   create_new: "新建"
-  back: "返回"	
+  back: "返回"
+  btn_save: "保存"

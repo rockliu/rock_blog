@@ -12,9 +12,9 @@
   <% end %>
 
   <div class="actions">
-    <%= f.text_field :username %>
-    <%= f.password_field :password %>
-    <%= f.text_field :email %>
-    <%= f.submit %>
+    <div>用户名：<%= f.text_field :username %></div>
+    <div>密码：<%= f.password_field :password %></div>
+    <div>邮箱：<%= f.text_field :email %></div>
+    <%= f.submit t('btn_save')%>
   </div>
 <% end %>
