@@ -1,0 +1,8 @@
+'zh-CN':
+  hello: "你好"
+  show: "查看"
+  edit: "编辑"
+  destroy: "删除"
+  msg_confirm: "确定吗？"
+  create_new: "新建"
+  back: "返回"	
