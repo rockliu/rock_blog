@@ -3,6 +3,11 @@ RockBlog::Application.routes.draw do
 
   resources :users
 
+  match "/auth/:provider/callback", to: 'sessions#create'
+  match "/signin", to: "sessions#new", as: :signin
+  match "/signout", to: "sessions#destroy", as: :signout
+  match "/auth/failure", to: "sessions#failure"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

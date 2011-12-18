@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'http://ruby.taobao.org/'
 
 gem 'rails', '3.1.3'
 
@@ -23,6 +23,10 @@ gem "bson_ext", "~> 1.4"
 
 # To use Mongoid_auto_inc (add the auto increse field)
 gem "mongoid_auto_inc", "~> 0.0.4"
+
+# To use Omniauth
+gem "omniauth", ">= 1.0.0"
+gem "omniauth-github"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
